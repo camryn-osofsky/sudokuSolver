@@ -1,6 +1,5 @@
 /*
 * Author: Camryn Osofsky
-* Last Date Modified: 6/11/2024
 * 
 * Description:
 * Takes in a path to an input sudoku puzzle and uses multithreading to solve the puzzle.
