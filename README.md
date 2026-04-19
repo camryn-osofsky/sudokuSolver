@@ -38,7 +38,7 @@ Grid 01
 ...
 ```
 
-### Output (`Lab3Prob1.txt`)
+### Output (`output_sudoku.txt`)
 Each solved puzzle starts with its grid name, followed by 9 rows of space-separated digits.
 ```
 Grid 01
@@ -59,7 +59,7 @@ g++ -std=c++11 -o sudoku_solver sudokuSolver.cpp -lpthread
 ./sudoku_solver input_sudoku.txt
 ```
 
-The solved puzzles will be written to `Lab3Prob1.txt` in the current directory.
+The solved puzzles will be written to `output_sudoku.txt` in the current directory.
 
 ### Windows (Visual Studio)
 Build the solution in Visual Studio, then run:
