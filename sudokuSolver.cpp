@@ -155,7 +155,7 @@ void solveSudokuPuzzles() {
 int main(int argc, char* argv[]) {
     // names of the input and output files
     string inputFile = argv[1];
-    string outputFile = "Lab3Prob1.txt";
+    string outputFile = "output_sudoku.txt";
 
     // open the files
     inFile.open(inputFile, ios::in);
